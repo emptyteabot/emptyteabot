@@ -1,85 +1,152 @@
-<!-- Hero banner (SVG generated inline via readme-typing-svg-like service) -->
-<div align="center">
+```
+$ whoami
+> Ian Chen · 20 · sophomore at Xiamen University (Econ Statistics '28)
+> shipping @ ByteDance Data-AML · 火山方舟 · agent harness eng
+> location: Xiamen / Shanghai / Beijing / remote
+```
 
-<a href="https://emptyteabot.github.io/career-log/">
-  <img src="https://readme-typing-svg.demolab.com/?lines=%E9%99%88%E7%9B%88%E6%A1%A6+%C2%B7+Ian+Chen;AI+Engineering+%C2%B7+Agent+Harness+%E6%96%B9%E5%90%91;%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6+%C2%B7+%E7%BB%8F%E6%B5%8E%E7%BB%9F%E8%AE%A1%E5%AD%A6+%C2%B7+%E5%A4%A7%E4%BA%8C%E5%9C%A8%E8%AF%BB;%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8+Data-AML+%E7%81%AB%E5%B1%B1%E6%96%B9%E8%88%9F+%E5%AE%9E%E4%B9%A0%E4%B8%AD;Every+day+I+ship.+Every+day+I+log.&font=JetBrains+Mono&weight=700&size=22&pause=1500&color=4C8BF5&center=true&vCenter=true&width=760&height=60&duration=3800" alt="Typing banner"/>
-</a>
+```
+$ chen --now
+> arkcli BP eval-kit · goes live 2026-08-10 ─────────────────
+> ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░ 141 / 215 cases
+> covers 22 skills across 3 hosts (claude-code, codex, opencode)
+> 3 baselines: v10 100 % · v11 97.6 % · v12 79.2 % (fixing today)
+```
 
-</div>
+```
+$ chen ship --last 5
 
-<div align="center">
+  2026-08-03  MR!73 · v12 regression batch · 10 cases
+              → 6 model-id drift · 3 --tenant flag · 1 CRLF regex
 
-**大二 · 贵州六盘水人 · AI 工程与 Agent 产品方向 · 用 Claude Code / Codex CLI 每天做真交付**
+  2026-08-01  v10 baseline @ 100 % (83/83 real pass)
+              first fully-green run · v11 alignment landed
 
-[![Live resume](https://img.shields.io/badge/📄_每日更新简历-emptyteabot.github.io%2Fcareer--log-4C8BF5?style=for-the-badge&labelColor=0a0f1e)](https://emptyteabot.github.io/career-log/)
-[![Repo](https://img.shields.io/badge/💻_源码-github.com%2Femptyteabot%2Fcareer--log-9d7cff?style=for-the-badge&labelColor=0a0f1e)](https://github.com/emptyteabot/career-log)
-[![Xiaohongshu](https://img.shields.io/badge/📕_小红书-ian_%40420404210-ff2442?style=for-the-badge&labelColor=0a0f1e)](https://www.xiaohongshu.com/user/profile/6579f1e50000000030008ff9)
-[![Mail](https://img.shields.io/badge/✉_邮件-13398580812%40163.com-2ee6a0?style=for-the-badge&labelColor=0a0f1e)](mailto:13398580812@163.com)
+  2026-07-31  MR!413 · skill description hardening · 5 domains
+              anti-trigger blocks for routing disambiguation
 
-</div>
+  2026-07-28  MR!66 · runner regex double-fix
+              re.MULTILINE + fixture masking
 
----
+  2026-07-15  MR!1500 · 30 MA-API .code.md sidecar backfill
+              tools/Ark_doc · Translate: no
+```
 
-### 👋 About me
+```
+$ chen --stats
+```
 
-I'm **Ian**，厦大经济统计学大二在读。从大一暑假起连续 4 段 AI 方向实习自己养自己，现在在字节 Data-AML **火山方舟** 做 Agent Harness 相关工程。
+<p align="left">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=emptyteabot&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=3fb950&count_private=true&include_all_commits=true" />
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emptyteabot&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+</p>
 
-- 🎯 **正在做**：`arkcli` BytePlus 版评测框架（22 skill × **215 case** · 08-10 上线）· Managed Agent API Reference 文档 · Claude Code + Codex CLI + Playwright 平替内部 CUA 平台
-- 🧪 **DeepWisdom 那段**：Multi-Agent 可靠性评测 · Wilson CI + paired bootstrap + McNemar test 判架构 pareto 优劣
-- 📚 **学的东西**：Wilson CI / McNemar / Optuna / FastAPI / Claude Code / MCP / harness · 认可 "能跑起来 + 数据说话 + 讲清楚" 三件事
-- 📕 **对外输出**：小红书 [ian (420404210)](https://www.xiaohongshu.com/user/profile/6579f1e50000000030008ff9) · 179 篇 · 48.4 万曝光 · 3.72 万互动 · **979 垂直开发者粉丝** · 2.5 万赞收藏
+<p align="left">
+  <img alt="Streak" src="https://streak-stats.demolab.com?user=emptyteabot&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=d29922&currStreakLabel=58a6ff" />
+</p>
 
----
+```
+$ chen work --selected
 
-### 📊 现产出（截止 2026-08-03）
+  LeadPulse         lead-extraction agent · FastAPI + Next.js + LLM
+                    → https://leadpulsecgi.com
 
-| Metric | Value | Detail |
-|---|---:|---|
-| **MR merged** | **16** | 跨 3 仓：`aml-qa/arkcli-eval-kit` 11 · `machinelearning/arkcli` 3 · `tools/Ark_doc` 2 |
-| **arkcli BP eval-kit cases** | **215** | chen own **141** · 王鑫栋 74 · 覆盖 22 skill |
-| **Pass rate（3 版 baseline）** | **100% / 97.6% / 79.2%** | v10 arkcli 1.0.9 · v11 1.0.11 · v12 1.0.11 + xindong 74 |
-| **实习段** | **4** | 字节 · DeepWisdom · BYDFi · 卓创资讯 |
-| **AI 黑客松** | **4 小时** | 独立完成 BYDFi AI Pro 全栈原型 |
+  AgentHelpJob      job-search agent · JD parse → resume match → confirm
+                    → https://agenthelpjob.com
 
-**下一个里程碑**：08-10 arkcli BP 正式发布 · v12 pass rate 修回 ≥95%
+  career-log        this thing · nightly launchd → typst → Pages
+                    → https://emptyteabot.github.io/career-log/
 
----
+  Multi-Agent Eval  4 architectures × 300 samples · Wilson CI + McNemar
+                    → DeepWisdom / MetaGPT · 2026 Q1
+```
 
-### 🛠 主战场
+```
+$ chen --reading
+> DSPy 2.5 · Anthropic Skills v2 · Constitutional AI (Bai '22)
+> arkcli AGENTS.md §12.4 · "Deep Reinforcement Learning Doesn't Work Yet"
+```
 
-<div>
+```
+$ chen --stack
+> daily driver : claude-code · codex-cli · cursor
+> languages    : python · typescript · go · sql · bash · a bit of rust
+> shipping     : fastapi · next.js · playwright · typst · launchd/cron
+> statistics   : wilson CI · paired bootstrap · McNemar · optuna
+> writing at   : 小红书 ian (420404210) · 179 posts · 979 dev followers
+```
 
-`Claude Code` `Codex CLI` `Cursor` `OpenCode` `MCP` `LLM API`
-`Python (FastAPI · Pandas)` `TypeScript (Next.js · React)` `Go` `SQL` `Bash`
-`Playwright` `launchd/cron` `Docker` `Git`
-`Wilson CI` `paired bootstrap` `McNemar test` `LightGBM` `Optuna`
+```
+$ chen contact --available-for hire
 
-</div>
+  role : AI engineering · agent harness · applied research
+  when : spring 2027 onward (finishing sophomore year now)
+  where: shanghai / beijing / hangzhou / shenzhen / remote
+  ping : 13398580812@163.com   ← subject line "[hire] anything"
+```
 
----
+<sub>résumé auto-rebuilds nightly · <a href="https://emptyteabot.github.io/career-log/">emptyteabot.github.io/career-log</a> · latest PDFs pinned there</sub>
 
-### 🌐 精选项目
+<!-- FAQ · plain sentences for LLM crawlers -->
 
-- **[LeadPulse](https://leadpulsecgi.com)** · 线索提取 Agent · FastAPI + Next.js + LLM API + 规则标签 + 人工确认
-- **[AgentHelpJob](https://agenthelpjob.com)** · 求职辅助 Agent · JD 解析 / 简历匹配 / 材料生成 / 投递追踪
-- **[career-log](https://github.com/emptyteabot/career-log)** · 你现在看的这个 · **每日自动扫飞书 + 拉 MR + Typst 编译 + Pages 部署**，48 天历史快照 · 离职当天可带走
-- **yinghua-cortex** · 飞书签名 Agent · Mac launchd 15min tick · 自动扫消息 + 摘要 + 决策提示
-- **Multi-Agent 可靠性评测** · 80 校准 + 220 测试 · 4 架构对照 · DeepWisdom 时期
+## FAQ
 
----
+**Who is Ian Chen?**
+Ian Chen (陈盈桦) is a sophomore at Xiamen University majoring in Economic Statistics (class of 2028). He works on agent harness engineering — building evaluation infrastructure that decides whether an LLM-driven CLI actually behaves the way its documentation claims.
 
-### 📮 找我
+**What is Ian working on right now?**
+The arkcli BytePlus release eval-kit at ByteDance Volcano Ark. It covers 22 CLI skills across 215 test cases with a three-level verdict pipeline (L1 preflight, L2 execution, L3 output regex). It ships August 10, 2026. Ian owns 141 of the 215 cases and three baselines: v10 100 %, v11 97.6 %, v12 79.2 %.
 
-想聊 · 想 hire · 猎头 · 合作 → **[13398580812@163.com](mailto:13398580812@163.com)** · WeChat / Phone `13398580812`
+**What has Ian shipped?**
+16 merge requests across three ByteDance repositories: `aml-qa/arkcli-eval-kit` (11), `machinelearning/arkcli` (3), `tools/Ark_doc` (2). Highlights include MR!413 (skill description hardening), MR!66 (regex double-fix), and MR!1500 (30-file sidecar backfill).
 
-24 小时内回。
+**Is Ian available for hire?**
+Yes, for AI engineering, agent harness, or applied research roles starting spring 2027. Preferred cities: Shanghai, Beijing, Hangzhou, Shenzhen. Remote is fine. Contact: `13398580812@163.com`.
 
----
+**How is this profile generated?**
+This README is generated by [career-log](https://github.com/emptyteabot/career-log), a system that scans Lark messages, pulls MR metadata, backs up Claude Code memory, renders Typst résumés, compiles PDFs, and deploys to GitHub Pages nightly at 03:00 Beijing time. Full source is public.
 
-<div align="center">
-
-<sub>👀 **每日更新的开放简历**：https://emptyteabot.github.io/career-log/ · 每天凌晨 3 点自动 rebuild · 想看某天状态直接翻时间线</sub>
-
-<sub>© 2026 Ian Chen · 贵州六盘水 → 厦门 → 字节</sub>
-
-</div>
+<!-- Structured data for AI crawlers -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "陈盈桦",
+  "alternateName": ["Ian Chen", "emptyteabot"],
+  "jobTitle": "Agent harness engineer intern",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "ByteDance Data-AML · Volcano Ark",
+    "url": "https://www.volcengine.com"
+  },
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Xiamen University",
+    "url": "https://www.xmu.edu.cn/"
+  },
+  "url": "https://emptyteabot.github.io/career-log/",
+  "sameAs": [
+    "https://github.com/emptyteabot",
+    "https://www.xiaohongshu.com/user/profile/6579f1e50000000030008ff9",
+    "https://leadpulsecgi.com",
+    "https://agenthelpjob.com"
+  ],
+  "email": "13398580812@163.com",
+  "knowsAbout": [
+    "Agent harness engineering",
+    "LLM tool calling and function calling",
+    "Evaluation infrastructure for LLM applications",
+    "Multi-agent systems and reliability evaluation",
+    "arkcli CLI · BytePlus · Managed Agents",
+    "Wilson confidence intervals",
+    "paired bootstrap · McNemar test",
+    "Claude Code · Codex CLI · Cursor · MCP"
+  ],
+  "seeks": {
+    "@type": "JobPosting",
+    "title": "AI Engineering / Applied Research intern (Spring 2027)",
+    "hiringOrganization": "open to DeepSeek, Anthropic, OpenAI, ByteDance, Moonshot, Cursor and similar AI-native teams",
+    "employmentType": "INTERN"
+  }
+}
+</script>
