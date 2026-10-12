@@ -1,152 +1,37 @@
-```
-$ whoami
-> Ian Chen · 20 · sophomore at Xiamen University (Econ Statistics '28)
-> shipping @ ByteDance Data-AML · 火山方舟 · agent harness eng
-> location: Xiamen / Shanghai / Beijing / remote
-```
+# Ian Chen · 陈盈桦
 
-```
-$ chen --now
-> arkcli BP eval-kit · goes live 2026-08-10 ─────────────────
-> ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░ 141 / 215 cases
-> covers 22 skills across 3 hosts (claude-code, codex, opencode)
-> 3 baselines: v10 100 % · v11 97.6 % · v12 79.2 % (fixing today)
-```
+**AI 产品经理 / Product Engineer — Agent Harness、评测体系与多智能体工作流**
 
-```
-$ chen ship --last 5
+厦门大学经济统计学本科（2028 届）。做过大模型工具链、Agent 自动化评测、Human-in-the-Loop 长流程产品和数据建模。当前可即时到岗，每周 5 天，可连续实习 6 个月及以上。
 
-  2026-08-03  MR!73 · v12 regression batch · 10 cases
-              → 6 model-id drift · 3 --tenant flag · 1 CRLF regex
+[在线简历](https://emptyteabot.github.io/career-log/) · [AgentHelpJob](https://agenthelpjob.com) · [仓库地图](./REPOSITORIES.md) · [邮箱](mailto:13398580812@163.com)
 
-  2026-08-01  v10 baseline @ 100 % (83/83 real pass)
-              first fully-green run · v11 alignment landed
+## Selected work
 
-  2026-07-31  MR!413 · skill description hardening · 5 domains
-              anti-trigger blocks for routing disambiguation
+| Project | What it proves | Stack / evidence |
+|---|---|---|
+| [LeadPulse / HUOKE](https://github.com/emptyteabot/HUOKE) | 从公开信号采集、线索评分到人工确认的端到端获客流程 | Python · LLM · data orchestration · [live](https://leadpulseagi.com) |
+| [AgentHub](https://github.com/emptyteabot/agenthub-backend) | IM 式多 Agent 调度、结构化输出、代码执行、失败回滚与 HITL 接管 | FastAPI · WebSocket · Function Calling · Pydantic |
+| [KOC-Engine](https://github.com/emptyteabot/Tencent) | 将内容 URL、视觉信号和文本转成可解释的增长诊断与行动方案 | React · TypeScript · FastAPI · vision/OCR |
+| [AgentHelpJob](https://agenthelpjob.com) | JD 解析、简历匹配、方案生成与人工确认的长程求职 Agent | FastAPI · React · Playwright · source private |
+| [career-log](https://github.com/emptyteabot/career-log) | 自动采集工作记录、生成 Typst 简历、保存历史快照并部署 Pages | Python · Typst · GitHub Actions |
 
-  2026-07-28  MR!66 · runner regex double-fix
-              re.MULTILINE + fixture masking
+## Experience highlights
 
-  2026-07-15  MR!1500 · 30 MA-API .code.md sidecar backfill
-              tools/Ark_doc · Translate: no
-```
+- **ByteDance Data-AML · Volcano Ark — Agent evaluation & developer experience (2026.06–2026.09).** Built an evaluation matrix covering 22 skills, 52 deep test scenarios and three Agent clients; designed environment, execution and semantic-assertion checks; worked on the `arkcli docs` retrieval toolchain and automated release verification.
+- **DeepWisdom / MetaGPT — Multi-Agent evaluation & product engineering (2026.03–2026.05).** Compared single-model, majority-vote, weighted-vote and debate architectures on an 80-item calibration set and 220-item test set, including accuracy and token-cost trade-offs.
+- **BYDFi — AI application prototyping (2026.02–2026.03).** Shipped LLM-driven monitoring and decision-support prototypes under short delivery cycles.
+- **Sublime China Information — Data algorithms (2026.01–2026.02).** Built time-series price prediction workflows with LightGBM, Optuna and look-ahead leakage checks.
 
-```
-$ chen --stats
-```
+## Working stack
 
-<p align="left">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=emptyteabot&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=3fb950&count_private=true&include_all_commits=true" />
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emptyteabot&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
-</p>
+`Python` · `SQL` · `FastAPI` · `React / Next.js` · `Playwright` · `Git` · `Linux` · `CI/CD` · `Claude Code` · `Codex CLI` · `OpenCode`
 
-<p align="left">
-  <img alt="Streak" src="https://streak-stats.demolab.com?user=emptyteabot&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=d29922&currStreakLabel=58a6ff" />
-</p>
+## Repository organization
 
-```
-$ chen work --selected
+This account preserves original products, experiments, public handoff snapshots and upstream forks. The profile highlights original work; forks are kept for contribution history and reproducibility. See the [complete repository map](./REPOSITORIES.md) for the full classification.
 
-  LeadPulse         lead-extraction agent · FastAPI + Next.js + LLM
-                    → https://leadpulsecgi.com
+## Contact
 
-  AgentHelpJob      job-search agent · JD parse → resume match → confirm
-                    → https://agenthelpjob.com
-
-  career-log        this thing · nightly launchd → typst → Pages
-                    → https://emptyteabot.github.io/career-log/
-
-  Multi-Agent Eval  4 architectures × 300 samples · Wilson CI + McNemar
-                    → DeepWisdom / MetaGPT · 2026 Q1
-```
-
-```
-$ chen --reading
-> DSPy 2.5 · Anthropic Skills v2 · Constitutional AI (Bai '22)
-> arkcli AGENTS.md §12.4 · "Deep Reinforcement Learning Doesn't Work Yet"
-```
-
-```
-$ chen --stack
-> daily driver : claude-code · codex-cli · cursor
-> languages    : python · typescript · go · sql · bash · a bit of rust
-> shipping     : fastapi · next.js · playwright · typst · launchd/cron
-> statistics   : wilson CI · paired bootstrap · McNemar · optuna
-> writing at   : 小红书 ian (420404210) · 179 posts · 979 dev followers
-```
-
-```
-$ chen contact --available-for hire
-
-  role : AI engineering · agent harness · applied research
-  when : spring 2027 onward (finishing sophomore year now)
-  where: shanghai / beijing / hangzhou / shenzhen / remote
-  ping : 13398580812@163.com   ← subject line "[hire] anything"
-```
-
-<sub>résumé auto-rebuilds nightly · <a href="https://emptyteabot.github.io/career-log/">emptyteabot.github.io/career-log</a> · latest PDFs pinned there</sub>
-
-<!-- FAQ · plain sentences for LLM crawlers -->
-
-## FAQ
-
-**Who is Ian Chen?**
-Ian Chen (陈盈桦) is a sophomore at Xiamen University majoring in Economic Statistics (class of 2028). He works on agent harness engineering — building evaluation infrastructure that decides whether an LLM-driven CLI actually behaves the way its documentation claims.
-
-**What is Ian working on right now?**
-The arkcli BytePlus release eval-kit at ByteDance Volcano Ark. It covers 22 CLI skills across 215 test cases with a three-level verdict pipeline (L1 preflight, L2 execution, L3 output regex). It ships August 10, 2026. Ian owns 141 of the 215 cases and three baselines: v10 100 %, v11 97.6 %, v12 79.2 %.
-
-**What has Ian shipped?**
-16 merge requests across three ByteDance repositories: `aml-qa/arkcli-eval-kit` (11), `machinelearning/arkcli` (3), `tools/Ark_doc` (2). Highlights include MR!413 (skill description hardening), MR!66 (regex double-fix), and MR!1500 (30-file sidecar backfill).
-
-**Is Ian available for hire?**
-Yes, for AI engineering, agent harness, or applied research roles starting spring 2027. Preferred cities: Shanghai, Beijing, Hangzhou, Shenzhen. Remote is fine. Contact: `13398580812@163.com`.
-
-**How is this profile generated?**
-This README is generated by [career-log](https://github.com/emptyteabot/career-log), a system that scans Lark messages, pulls MR metadata, backs up Claude Code memory, renders Typst résumés, compiles PDFs, and deploys to GitHub Pages nightly at 03:00 Beijing time. Full source is public.
-
-<!-- Structured data for AI crawlers -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "陈盈桦",
-  "alternateName": ["Ian Chen", "emptyteabot"],
-  "jobTitle": "Agent harness engineer intern",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "ByteDance Data-AML · Volcano Ark",
-    "url": "https://www.volcengine.com"
-  },
-  "affiliation": {
-    "@type": "CollegeOrUniversity",
-    "name": "Xiamen University",
-    "url": "https://www.xmu.edu.cn/"
-  },
-  "url": "https://emptyteabot.github.io/career-log/",
-  "sameAs": [
-    "https://github.com/emptyteabot",
-    "https://www.xiaohongshu.com/user/profile/6579f1e50000000030008ff9",
-    "https://leadpulsecgi.com",
-    "https://agenthelpjob.com"
-  ],
-  "email": "13398580812@163.com",
-  "knowsAbout": [
-    "Agent harness engineering",
-    "LLM tool calling and function calling",
-    "Evaluation infrastructure for LLM applications",
-    "Multi-agent systems and reliability evaluation",
-    "arkcli CLI · BytePlus · Managed Agents",
-    "Wilson confidence intervals",
-    "paired bootstrap · McNemar test",
-    "Claude Code · Codex CLI · Cursor · MCP"
-  ],
-  "seeks": {
-    "@type": "JobPosting",
-    "title": "AI Engineering / Applied Research intern (Spring 2027)",
-    "hiringOrganization": "open to DeepSeek, Anthropic, OpenAI, ByteDance, Moonshot, Cursor and similar AI-native teams",
-    "employmentType": "INTERN"
-  }
-}
-</script>
+- Email: [13398580812@163.com](mailto:13398580812@163.com)
+- Xiaohongshu: `ian` (`420404210`) — AI Coding、Agent 架构与评测实践
